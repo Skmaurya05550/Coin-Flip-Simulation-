@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coin Flip Simulation</h1>
+    <label for="numberOfFlips">Enter number of flips:</label>
+    <input type="number" id="numberOfFlips" min="1" required>
+    <button onclick="flipCoin()">Flip Coin</button>
+
+    <div id="results">
+        <h2>Results</h2>
+        <div class="result" id="headsCount"></div>
+        <div class="result" id="tailsCount"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
