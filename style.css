@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#results {
+    margin-top: 20px;
+    display: none;
+}
+
+.result {
+    margin: 5px 0;
+}
