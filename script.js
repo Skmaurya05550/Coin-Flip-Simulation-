@@ -4,7 +4,6 @@ function flipCoin() {
         alert('Please enter a valid number.');
         return;
     }
-
     let headsCount = 0;
     let tailsCount = 0;
 
@@ -16,7 +15,6 @@ function flipCoin() {
             tailsCount++;
         }
     }
-
     document.getElementById('headsCount').innerText = `Heads: ${headsCount}`;
     document.getElementById('tailsCount').innerText = `Tails: ${tailsCount}`;
     document.getElementById('results').style.display = 'block';
